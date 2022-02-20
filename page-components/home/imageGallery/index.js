@@ -28,26 +28,26 @@ const ImageGallery = () => {
     <>
       <div className='container imageGallery bg-pattern-grey mt-4 p-5'>
         <h2 className='mb-2 text-center fontColor__red'>Photo Gallery</h2>
-        <hr className='redLine__h mb-4' />
+        <hr className='redLine__h mb-2' />
         
-        <div className='d-flex justify-content-center w-100 my-4'>
+        <div className='d-flex flex-wrap justify-content-center w-100 my-4'>
           <button type="button" id="marketBtn"
-            className="btn btn-primary btnRounded mx-2"
+            className="btn btn-primary btnRounded mx-2 my-2"
             onClick={(e) => selectImages(e.target)}
           >Nearby Market</button>
 
           <button type="button" id="gymBtn" 
-            className="btn btn-primary btnRounded mx-2"
+            className="btn btn-primary btnRounded mx-2 my-2"
             onClick={(e) => selectImages(e.target)}
           >Gym / Swimming</button>
 
           <button type="button" id="hallBtn" 
-            className="btn btn-primary btnRounded mx-2"
+            className="btn btn-primary btnRounded mx-2 my-2"
             onClick={(e) => selectImages(e.target)}
           >Community Hall</button>
 
           <button type="button" id="securityBtn" 
-            className="btn btn-primary btnRounded mx-2"
+            className="btn btn-primary btnRounded mx-2 my-2"
             onClick={(e) => selectImages(e.target)}
           >Security</button>
         </div>

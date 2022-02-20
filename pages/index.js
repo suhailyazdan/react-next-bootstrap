@@ -1,7 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.scss'
-import Button from 'react-bootstrap/Button'
 import FeatureSection from '../page-components/home/featureSection'
 import ImageSlider from '../page-components/home/imageSlider'
 import KeyFeatures from '../page-components/home/keyFeatures'
@@ -15,15 +11,15 @@ export default function Home() {
       <ImageSlider />
 
       <div className='container mt-4 px-0'>
-        <div className='row g-0'>
-          <div className='col-6'>
-            <div className='me-3 h-100'>
+        <div className='row g-4'>
+          <div className='col-12 col-md-6'>
+            <div className='h-100'>
               <KeyFeatures />
             </div>
           </div>
 
-          <div className='col-6'>
-            <div className='ms-3 h-100'>
+          <div className='col-12 col-md-6'>
+            <div className='h-100'>
               <EnquiryForm />
             </div>
           </div>
