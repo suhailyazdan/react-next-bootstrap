@@ -6,7 +6,7 @@ const About = () => {
     <>
       <div className="container my-5">
         <div className="row g-5">
-          <div className="col-6">
+          <div className="col-12 col-md-6">
             <div className="d-flex flex-column justify-content-between">
               <div>
                 <h2 className="mt-3 text-primary">About Us</h2>
@@ -35,7 +35,7 @@ const About = () => {
             </div>
           </div>
           
-          <div className="col-6">
+          <div className="col-12 col-md-6">
             <div className="rounded-3 shadow overflow-hidden m-5">
               <Image
                 src={`/${othImages[0].imgUrl}`}

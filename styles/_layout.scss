@@ -221,11 +221,6 @@
   background-color: $primary;
 }
 
-.footerContent{
-  display: flex;
-  justify-content: flex-start;
-}
-
 .footerList{
   list-style: none;
   color: $secondary;
@@ -245,7 +240,14 @@
   background: ligntgreen;
   color: $secondary;
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  .copyContent{
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
 }
 
