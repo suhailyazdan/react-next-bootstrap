@@ -11,18 +11,16 @@ const Banner = () => {
               {
                 bnrImages.map((image, i) => (
                   <Carousel.Item key={i}>
-                    <div style={{width:"100%", height:"400px", position:"relative"}}>
+                    <div className='bnrImgWrapper'>
                       <Image
                         src={`/${image.imgUrl}`}
-                        layout='responsive'
-                        height = {85}
-                        width = {400}
+                        layout='fill'
                         alt="First slide"
-                        objectFit='contain'
+                        objectFit='cover'
                       />  
                     </div>
 
-                    <Carousel.Caption>
+                    <Carousel.Caption >
                       <h3>First slide label</h3>
                       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>

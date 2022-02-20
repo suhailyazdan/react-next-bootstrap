@@ -79,6 +79,48 @@
   }
 }
 
+//Banner - carousel
+.bnrImgWrapper{
+  width: 100%;
+  height: 100px;
+  position: relative;
+  background-color: #991421;
+}
+
+@media (min-width: 576px) {
+  .bnrImgWrapper{
+    height: 210px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .bnrImgWrapper{
+    height: 230px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .bnrImgWrapper{
+    height: 250px;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .bnrImgWrapper{
+    height: 300px;
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  .bnrImgWrapper{
+    height: 400px;
+  }
+}
+
 // Main Navbar
 .customNav {
   background-color: #ebebeb;
