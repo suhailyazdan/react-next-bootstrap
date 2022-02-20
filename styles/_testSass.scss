@@ -1,0 +1,10 @@
+.parentBox{
+  width: 500px;
+  height: 200px;
+  background: pink;
+  .childBox{
+    width: 100px;
+    height: 50px;
+    background: yellow;
+  }
+}

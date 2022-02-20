@@ -1,0 +1,39 @@
+$body-bg: #f8f8f8;
+$primary: #991421;
+$secondary: #ebebeb;
+$link: #b4b4b4;
+
+$border-radius-lg: 1rem;
+$border-radius: 0.7rem;
+
+@import "globals";
+@import "~bootstrap/scss/bootstrap";
+@import "layout";
+@import "home";
+    
+
+
+
+
+
+
+
+// @import 'globals';
+// @import 'testSass';
+
+
+// $theme-colors: (
+//   'primary': #145bea,
+//   'secondary': #833bec,
+//   'success': #1ce1ac,
+//   'info': #ff7d50,
+//   'warning': #ffbe0b,
+//   'danger': #ff007f,
+//   'light': #c0ccda,
+//   'dark': #001738,
+// );
+
+
+
+
+// @import "~bootstrap/scss/bootstrap";
