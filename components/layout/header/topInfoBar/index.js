@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container'
 import { Telephone, Envelope } from 'react-bootstrap-icons';
 import Image from 'next/image'
 
-import logo from '../../../../public/images/logo.png';
+// import logo from '../../../../public/images/logo.png';
 import Link from 'next/Link';
 
 
@@ -42,7 +42,7 @@ const TopInfoBar = () => {
                         <div className="logoWrapper">
                             <div className="logoBox p-3">
                                 <Link href="/">
-                                    <a><Image src={logo} widtth={129} height={49} alt="kd-logo" /></a>
+                                    <a><Image src={`/images/logo.png`} width={129} height={49} alt="kd-logo" /></a>
                                 </Link>
                             </div>
                         </div>
