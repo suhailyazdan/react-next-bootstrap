@@ -7,7 +7,7 @@ const LocationMap = () => {
       <hr />
 
       <div className='row mt-3'>
-        <div className="col-6">
+        <div className="col-12 col-md-6">
           <div style={{position:"relative", textAlign:"right", height:"458px", width:"100%"}}>
             <div style={{overflow:"hidden", background:"none !important", height:"458px", width:"100%"}}>
               <iframe width="100%" height="458" id="gmap_canvas" src="https://maps.google.com/maps?q=mg%20road&t=&z=15&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
@@ -15,8 +15,8 @@ const LocationMap = () => {
           </div>
         </div>
 
-        <div className='col-6'>
-          <address>
+        <div className='col-12 col-md-6'>
+          <address className='mt-5 mt-md-2 text-center text-md-start'>
             <h5>Office :</h5>
             No. 19 &amp; 20, 2nd Floor,<br/>
             Horamavu Ring Road Junction,<br/>
@@ -27,7 +27,7 @@ const LocationMap = () => {
             <Telephone /> : +91 - 99163 78353, 080 - 4969 5666/00
           </address>
 
-          <address className="mt-4">
+          <address className="mt-5 text-center text-md-start">
             <h5>Site Office :</h5>
             SANKALPA ASHIRVAAD,<br/>
             Sy. No. 7, Kalkari,<br/>

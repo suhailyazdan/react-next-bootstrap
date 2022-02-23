@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { galleryImages } from '../../public/staticData'
+import { ongImages } from '../../public/staticData';
 
 const OngoingProjects = () => {
   return (
@@ -17,7 +18,7 @@ const OngoingProjects = () => {
                     <div className='mx-4 mt-4 mb-lg-4'>
                       <div className="g-Box">
                         <Image
-                          src={`/${galleryImages[0].imgUrls[0]}`}
+                          src={`/${ongImages[0].imgUrl}`}
                           layout='fill'
                           alt="First slide"
                           objectFit='cover'
@@ -28,9 +29,9 @@ const OngoingProjects = () => {
 
                   <div className='col-12 col-lg-7'>
                     <div className="card-body mb-0 mb-md-3 h-100 mx-2 mx-lg-0 d-flex flex-column align-items-center align-items-lg-start justify-content-center">
-                      <h5 className="card-title">Card title</h5>
-                      <p className="card-text text-center text-lg-start">Some quick example text to build on the card  the bulk of the card&apos;s content.</p>
-                      <a href="#" className="btn btn-primary">Go somewhere</a>
+                      <h5 className="card-title">Kalpa Green Park</h5>
+                      <p className="card-text text-center text-lg-start">Boasts of fully grown gardens, entertainment decks &amp; spacious pools, gym, spa etc.</p>
+                      <a href="#" className="btn btn-primary">Project Details</a>
                     </div>
                   </div>
                 </div>
@@ -44,7 +45,7 @@ const OngoingProjects = () => {
                     <div className='mx-4 mt-4 mb-lg-4'>
                       <div className="g-Box">
                         <Image
-                          src={`/${galleryImages[0].imgUrls[0]}`}
+                          src={`/${ongImages[1].imgUrl}`}
                           layout='fill'
                           alt="First slide"
                           objectFit='cover'
@@ -55,9 +56,9 @@ const OngoingProjects = () => {
 
                   <div className='col-12 col-lg-7'>
                   <div className="card-body mb-0 mb-md-3 h-100 mx-2 mx-lg-0 d-flex flex-column align-items-center align-items-lg-start justify-content-center">
-                      <h5 className="card-title">Card title</h5>
-                      <p className="card-text text-center text-lg-start">Some quick example text to build on the card  the bulk of the card&apos;s content.</p>
-                      <a href="#" className="btn btn-primary">Go somewhere</a>
+                      <h5 className="card-title">Kalpa Residential</h5>
+                      <p className="card-text text-center text-lg-start">Boasts of fully grown gardens, entertainment decks &amp; spacious pools, gym, spa etc.</p>
+                      <a href="#" className="btn btn-primary">Project Details</a>
                     </div>
                   </div>
                 </div>
@@ -69,9 +70,9 @@ const OngoingProjects = () => {
                 <div className='row g-0'>
                   <div className='col-12 col-lg-7'>
                     <div className="card-body mb-0 mb-md-3 h-100 mx-2 mx-lg-0 d-flex flex-column align-items-center align-items-lg-end justify-content-center">
-                      <h5 className="card-title">Card title</h5>
-                      <p className="card-text text-center text-lg-end">Some quick example text to build on the card  the bulk of the card&apos;s content.</p>
-                      <a href="#" className="btn btn-primary">Go somewhere</a>
+                      <h5 className="card-title">Beach Valley Homes</h5>
+                      <p className="card-text text-center text-lg-end">Boasts of fully grown gardens, entertainment decks &amp; spacious pools, gym, spa etc.</p>
+                      <a href="#" className="btn btn-primary">Project Details</a>
                     </div>
                   </div>
 
@@ -79,7 +80,7 @@ const OngoingProjects = () => {
                     <div className='mx-4 mb-4 mt-lg-4'>
                       <div className="g-Box">
                         <Image
-                          src={`/${galleryImages[0].imgUrls[0]}`}
+                          src={`/${ongImages[2].imgUrl}`}
                           layout='fill'
                           alt="First slide"
                           objectFit='cover'
@@ -96,9 +97,9 @@ const OngoingProjects = () => {
                 <div className='row g-0'>
                   <div className='col-12 col-lg-7'>
                     <div className="card-body mb-0 mb-md-3 h-100 mx-2 mx-lg-0 d-flex flex-column align-items-center align-items-lg-end justify-content-center">
-                      <h5 className="card-title">Card title</h5>
-                      <p className="card-text text-center text-lg-end">Some quick example text to build on the card  the bulk of the card&apos;s content.</p>
-                      <a href="#" className="btn btn-primary">Go somewhere</a>
+                      <h5 className="card-title">Golden Orchid</h5>
+                      <p className="card-text text-center text-lg-end">Boasts of fully grown gardens, entertainment decks &amp; spacious pools, gym, spa etc.</p>
+                      <a href="#" className="btn btn-primary">Project Details</a>
                     </div>
                   </div>
 
@@ -106,7 +107,7 @@ const OngoingProjects = () => {
                     <div className='mx-4 mb-4 mt-lg-4'>
                       <div className="g-Box">
                         <Image
-                          src={`/${galleryImages[0].imgUrls[0]}`}
+                          src={`/${ongImages[3].imgUrl}`}
                           layout='fill'
                           alt="First slide"
                           objectFit='cover'
@@ -125,7 +126,7 @@ const OngoingProjects = () => {
                     <div className='mx-4 mt-4 mb-lg-4'>
                       <div className="g-Box">
                         <Image
-                          src={`/${galleryImages[0].imgUrls[0]}`}
+                          src={`/${ongImages[4].imgUrl}`}
                           layout='fill'
                           alt="First slide"
                           objectFit='cover'
@@ -136,9 +137,9 @@ const OngoingProjects = () => {
 
                   <div className='col-12 col-lg-7'>
                     <div className="card-body mb-0 mb-md-3 h-100 mx-2 mx-lg-0 d-flex flex-column align-items-center align-items-lg-start justify-content-center">
-                      <h5 className="card-title">Card title</h5>
-                      <p className="card-text text-center text-lg-start">Some quick example text to build on the card  the bulk of the card&apos;s content.</p>
-                      <a href="#" className="btn btn-primary">Go somewhere</a>
+                      <h5 className="card-title">Ultra Luxury Apartents</h5>
+                      <p className="card-text text-center text-lg-start">Boasts of fully grown gardens, entertainment decks &amp; spacious pools, gym, spa etc.</p>
+                      <a href="#" className="btn btn-primary">Project Details</a>
                     </div>
                   </div>
                 </div>
@@ -152,7 +153,7 @@ const OngoingProjects = () => {
                     <div className='mx-4 mt-4 mb-lg-4'>
                       <div className="g-Box">
                         <Image
-                          src={`/${galleryImages[0].imgUrls[0]}`}
+                          src={`/${ongImages[5].imgUrl}`}
                           layout='fill'
                           alt="First slide"
                           objectFit='cover'
@@ -163,9 +164,9 @@ const OngoingProjects = () => {
 
                   <div className='col-12 col-lg-7'>
                     <div className="card-body mb-0 mb-md-3 h-100 mx-2 mx-lg-0 d-flex flex-column align-items-center align-items-lg-start justify-content-center">
-                      <h5 className="card-title">Card title</h5>
-                      <p className="card-text text-center text-lg-start">Some quick example text to build on the card  the bulk of the card&apos;s content.</p>
-                      <a href="#" className="btn btn-primary">Go somewhere</a>
+                      <h5 className="card-title">Kalpa Estate Club</h5>
+                      <p className="card-text text-center text-lg-start">Boasts of fully grown gardens, entertainment decks &amp; spacious pools, gym, spa etc.</p>
+                      <a href="#" className="btn btn-primary">Project Details</a>
                     </div>
                   </div>
                 </div>

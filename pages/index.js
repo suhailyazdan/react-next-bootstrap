@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <div>
       <FeatureSection />
+      <ImageGallery />
       <ImageSlider />
 
       <div className='container mt-4 px-0'>
@@ -25,8 +26,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      <ImageGallery />
     </div>
   )
 }

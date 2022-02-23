@@ -21,8 +21,8 @@ const Banner = () => {
                     </div>
 
                     <Carousel.Caption >
-                      <h3>First slide label</h3>
-                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                      <h3 style={{textShadow: "0px 0px 10px rgba(0, 0, 0, 1)"}}>Where Luxury Meets Location</h3>
+                      <p style={{textShadow: "0px 0px 3px rgba(0, 0, 0, 1)"}}>Happiness inspired by unlimited luxury. Own your dreams with luxury and Savings</p>
                     </Carousel.Caption>
                   </Carousel.Item>
                 ))

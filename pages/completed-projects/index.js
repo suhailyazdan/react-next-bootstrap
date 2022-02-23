@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import { galleryImages } from '../../public/staticData'
+import { aminitiesImages } from '../../public/staticData'
+import { cmpImages } from '../../public/staticData'
 
 const CompletedProjects = () => {
   return (
@@ -19,7 +21,7 @@ const CompletedProjects = () => {
                         <div className='d-flex align-items-center h-100'>
                           <div className="g-Box">
                             <Image
-                              src={`/${galleryImages[0].imgUrls[0]}`}
+                              src={`/${aminitiesImages[0].imgUrl}`}
                               layout='fill'
                               alt="First slide"
                               objectFit='cover'
@@ -42,7 +44,7 @@ const CompletedProjects = () => {
                         <div className='d-flex align-items-center h-100'>
                           <div className="g-Box">
                             <Image
-                              src={`/${galleryImages[0].imgUrls[0]}`}
+                              src={`/${aminitiesImages[1].imgUrl}`}
                               layout='fill'
                               alt="First slide"
                               objectFit='cover'
@@ -65,7 +67,7 @@ const CompletedProjects = () => {
                         <div className='d-flex align-items-center h-100'>
                           <div className="g-Box">
                             <Image
-                              src={`/${galleryImages[0].imgUrls[0]}`}
+                              src={`/${aminitiesImages[2].imgUrl}`}
                               layout='fill'
                               alt="First slide"
                               objectFit='cover'
@@ -88,7 +90,7 @@ const CompletedProjects = () => {
                         <div className='d-flex align-items-center h-100'>
                           <div className="g-Box">
                             <Image
-                              src={`/${galleryImages[0].imgUrls[0]}`}
+                              src={`/${aminitiesImages[3].imgUrl}`}
                               layout='fill'
                               alt="First slide"
                               objectFit='cover'
@@ -99,7 +101,7 @@ const CompletedProjects = () => {
 
                       <div className="col-8 col-md-12 col-lg-10">
                         <p className='ms-3 ms-md-0 ms-lg-3 mt-0 mt-md-2 mt-lg-0 d-flex align-items-center h-100'>
-                          Gymnasium, Swimming Pool, Kid&col;s Pool, Steam and Sauna
+                          Gymnasium, Swimming Pool, Kid&apos;s Pool, Steam and Sauna
                         </p>
                       </div>
                     </div>
@@ -111,7 +113,7 @@ const CompletedProjects = () => {
                         <div className='d-flex align-items-center h-100'>
                           <div className="g-Box">
                             <Image
-                              src={`/${galleryImages[0].imgUrls[0]}`}
+                              src={`/${aminitiesImages[4].imgUrl}`}
                               layout='fill'
                               alt="First slide"
                               objectFit='cover'
@@ -140,7 +142,7 @@ const CompletedProjects = () => {
                     <div className='mx-4 mt-4 mb-2'>
                       <div className="g-Box02">
                         <Image
-                          src={`/${galleryImages[0].imgUrls[0]}`}
+                          src={`/${cmpImages[0].imgUrl}`}
                           layout='fill'
                           alt="First slide"
                           objectFit='cover'
@@ -149,9 +151,10 @@ const CompletedProjects = () => {
                     </div>
 
                     <div className="card-body mx-2 mb-3">
-                      <h5 className="card-title">Card title</h5>
-                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card&col;s content.</p>
-                      <a href="#" className="btn btn-primary">Go somewhere</a>
+                      <h5 className="card-title">Kalpa Phase I</h5>
+
+                      <p className="card-text">This unique development is in a vibrant location of Bangalore, with every kind of indoor &amp; outdoor sports.</p>
+                      <a href="#" className="btn btn-primary">See Details</a>
                     </div>
                   </div>
                 </div>
@@ -161,7 +164,7 @@ const CompletedProjects = () => {
                     <div className='mx-4 mt-4 mb-2'>
                       <div className="g-Box02">
                         <Image
-                          src={`/${galleryImages[0].imgUrls[0]}`}
+                          src={`/${cmpImages[1].imgUrl}`}
                           layout='fill'
                           alt="First slide"
                           objectFit='cover'
@@ -170,9 +173,9 @@ const CompletedProjects = () => {
                     </div>
 
                     <div className="card-body mx-2 mb-3">
-                      <h5 className="card-title">Card title</h5>
-                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card&col;s content.</p>
-                      <a href="#" className="btn btn-primary">Go somewhere</a>
+                      <h5 className="card-title">Kalpa Pearl Valley</h5>
+                      <p className="card-text">This unique development is in a vibrant location of Bangalore, with every kind of indoor &amp; outdoor sports.</p>
+                      <a href="#" className="btn btn-primary">See Details</a>
                     </div>
                   </div>
                 </div>
@@ -182,7 +185,7 @@ const CompletedProjects = () => {
                     <div className='mx-4 mt-4 mb-2'>
                       <div className="g-Box02">
                         <Image
-                          src={`/${galleryImages[0].imgUrls[0]}`}
+                          src={`/${cmpImages[2].imgUrl}`}
                           layout='fill'
                           alt="First slide"
                           objectFit='cover'
@@ -191,9 +194,9 @@ const CompletedProjects = () => {
                     </div>
 
                     <div className="card-body mx-2 mb-3">
-                      <h5 className="card-title">Card title</h5>
-                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card&col;s content.</p>
-                      <a href="#" className="btn btn-primary">Go somewhere</a>
+                      <h5 className="card-title">Kalpa Layout Phase III</h5>
+                      <p className="card-text">This unique development is in a vibrant location of Bangalore, with every kind of indoor &amp; outdoor sports.</p>
+                      <a href="#" className="btn btn-primary">See Details</a>
                     </div>
                   </div>
                 </div>
@@ -203,7 +206,7 @@ const CompletedProjects = () => {
                     <div className='mx-4 mt-4 mb-2'>
                       <div className="g-Box02">
                         <Image
-                          src={`/${galleryImages[0].imgUrls[0]}`}
+                          src={`/${cmpImages[3].imgUrl}`}
                           layout='fill'
                           alt="First slide"
                           objectFit='cover'
@@ -212,9 +215,9 @@ const CompletedProjects = () => {
                     </div>
 
                     <div className="card-body mx-2 mb-3">
-                      <h5 className="card-title">Card title</h5>
-                      <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card&col;s content.</p>
-                      <a href="#" className="btn btn-primary">Go somewhere</a>
+                      <h5 className="card-title">Kalpa New Project</h5>
+                      <p className="card-text">This unique development is in a vibrant location of Bangalore, with every kind of indoor &amp; outdoor sports.</p>
+                      <a href="#" className="btn btn-primary">See Details</a>
                     </div>
                   </div>
                 </div>

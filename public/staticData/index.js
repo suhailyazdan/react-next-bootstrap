@@ -88,6 +88,31 @@ export const bnrImages = [
   
 ]
 
+export const aminitiesImages = [
+  {imgUrl: "amenitiesImgs/aminities01.jpg"},
+  {imgUrl: "amenitiesImgs/aminities02.jpg"},
+  {imgUrl: "amenitiesImgs/aminities03.jpg"},
+  {imgUrl: "amenitiesImgs/aminities04.jpg"},
+  {imgUrl: "amenitiesImgs/aminities05.jpg"}
+]
+
+export const cmpImages = [
+  {imgUrl: "cmp-images/cmp01.jpg"},
+  {imgUrl: "cmp-images/cmp02.jpg"},
+  {imgUrl: "cmp-images/cmp03.jpg"},
+  {imgUrl: "cmp-images/cmp04.jpg"},
+  {imgUrl: "cmp-images/cmp05.jpg"}
+]
+
+export const ongImages = [
+  {imgUrl: "ong-images/ong01.jpg"},
+  {imgUrl: "ong-images/ong02.jpg"},
+  {imgUrl: "ong-images/ong03.jpg"},
+  {imgUrl: "ong-images/ong04.jpg"},
+  {imgUrl: "ong-images/ong05.jpg"},
+  {imgUrl: "ong-images/ong06.jpg"}
+]
+
 export const othImages = [
   {imgUrl:"images/aboutUs.jpg"},
   {imgUrl:"images/about-us-strip.jpg"},
