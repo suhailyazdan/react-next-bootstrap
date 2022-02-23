@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { galleryImages } from '../../public/staticData'
 import { ongImages } from '../../public/staticData';
 
 const OngoingProjects = () => {

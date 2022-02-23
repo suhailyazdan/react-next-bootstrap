@@ -1,4 +1,4 @@
-import {useEffect, useState} from 'react'
+import {useState} from 'react'
 import Image from 'next/image'
 import { galleryImages } from '../../../public/staticData'
 
@@ -19,10 +19,6 @@ const ImageGallery = () => {
   }
 
   console.log(imagesArray.imgUrls)
-
-  // useEffect(() => {
-  //   console.log('gallery images - ', imagesArray)
-  // }, [])
 
   return (
     <>
