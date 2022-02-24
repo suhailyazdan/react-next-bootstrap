@@ -2,6 +2,9 @@
   "homepage": "https://suhailyazdan.github.io/next-react-bootstrap",
   "name": "next-bts",
   "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "lint": "next lint",
     "replaceFilePaths": "node replacer.js",
