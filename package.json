@@ -7,7 +7,8 @@
     "replaceFilePaths": "node replacer.js",
     "dev": "next dev",
     "build": "next build && next export -o build && npm run replaceFilePaths",
-    "start": "next start",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build",
     "export": "next export -o build && npm run replaceFilePaths",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
