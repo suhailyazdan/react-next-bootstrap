@@ -4,7 +4,7 @@ import { Telephone, Envelope } from 'react-bootstrap-icons';
 import Image from 'next/image'
 
 // import logo from '../../../../public/images/logo.png';
-import Link from 'next/Link';
+import Link from 'next/link';
 
 
 

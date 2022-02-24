@@ -7,10 +7,6 @@ module.exports = {
     includePaths: [path.join(__dirname, 'styles')]
   },
 
-  images: {
-    domains: ['https://dummyimage.com'],
-  },
-
   env: {
     PUBLIC_URL: "https://suhailyazdan.github.io/next-react-bootstrap",
     assetPrefix: './'
