@@ -1,8 +1,64 @@
 import {useState} from 'react'
 import Image from 'next/image'
-import { galleryImages } from '../../../public/staticData'
 
 const ImageGallery = () => {
+  const galleryImages = [
+    {
+      catagory: "nearby-market",
+      imgUrls: [
+        "images/mrkt (1).jpg",
+        "images/mrkt (2).jpg",
+        "images/mrkt (3).jpg",
+        "images/mrkt (4).jpg",
+        "images/mrkt (5).jpg",
+        "images/mrkt (6).jpg",
+        "images/mrkt (7).jpg"
+      ]
+    },
+  
+    {
+      catagory: "gym-swimming",
+      imgUrls: [
+        "images/gym-swim (1).jpg",
+        "images/gym-swim (3).jpg",
+        "images/gym-swim (2).jpg",
+        "images/gym-swim (4).jpg",
+        "images/gym-swim (5).jpg",
+        "images/gym-swim (6).jpg",
+        "images/gym-swim (7).jpg",
+        "images/gym-swim (8).jpg",
+        "images/gym-swim (9).jpg"
+      ]
+    },
+  
+    {
+      catagory: "community-hall",
+      imgUrls: [
+        "images/cmnt (1).jpg",
+        "images/cmnt (2).jpg",
+        "images/cmnt (3).jpg",
+        "images/cmnt (4).jpg",
+        "images/cmnt (5).jpg",
+        "images/cmnt (6).jpg",
+        "images/cmnt (7).jpg",
+        "images/cmnt (8).jpg",
+        "images/cmnt (9).jpg"
+      ]
+    },
+  
+    {
+      catagory: "security",
+      imgUrls: [
+        "images/scrt (1).jpg",
+        "images/scrt (2).jpg",
+        "images/scrt (3).jpg",
+        "images/scrt (4).jpg",
+        "images/scrt (5).jpg",
+        "images/scrt (6).jpg",
+        "images/scrt (7).jpg"
+      ]
+    }  
+  ];
 
   const [imagesArray, setImagesArray] = useState(galleryImages[0])
 

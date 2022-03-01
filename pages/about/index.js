@@ -1,7 +1,12 @@
-import { othImages } from "../../public/staticData";
 import Image from "next/image"
 
 const About = () => {
+
+  const othImages = [
+    {imgUrl:"images/aboutUs.jpg"},
+    {imgUrl:"images/about-us-strip.jpg"},
+  ]
+
   return (
     <>
       <div className="container my-5">

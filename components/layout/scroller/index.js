@@ -1,8 +1,17 @@
 import {useState} from "react"
 import Image from 'next/image'
-import { scImages } from "../../../public/staticData";
+
 
 const Scroller = () => {
+
+  const scImages = [
+    {imgUrl:"images/scImage (1).jpg"},
+    {imgUrl:"images/scImage (2).jpg"},
+    {imgUrl:"images/scImage (3).jpg"},
+    {imgUrl:"images/scImage (4).jpg"},
+    {imgUrl:"images/scImage (5).jpg"},
+    {imgUrl:"images/scImage (6).jpg"}
+  ]
 
   const [delay, setDelay] = useState(0);
 

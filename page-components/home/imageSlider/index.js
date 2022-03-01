@@ -1,10 +1,25 @@
 import {useState, useRef, createRef, useEffect} from "react"
-import { sldrImages } from "../../../public/staticData";
 import Image from "next/image"
 import { BsChevronCompactLeft } from "react-icons/bs";
 import { BsChevronCompactRight } from "react-icons/bs";
 
 const ImageSlider = () => {
+  const sldrImages = [
+    {imgUrl:"images/sldrImage01.jpg"},
+    {imgUrl:"images/sldrImage02.jpg"},
+    {imgUrl:"images/sldrImage03.jpg"},
+    {imgUrl:"images/sldrImage04.jpg"},
+    {imgUrl:"images/sldrImage05.jpg"},
+    {imgUrl:"images/sldrImage06.jpg"},
+    {imgUrl:"images/sldrImage07.jpg"},
+    {imgUrl:"images/sldrImage08.jpg"},
+    {imgUrl:"images/sldrImage09.jpg"},
+    {imgUrl:"images/sldrImage10.jpg"},
+    {imgUrl:"images/sldrImage11.jpg"},
+  ]
+
+
+
   const [scrollValue, setScrollValue] = useState(0)
 
   const scrollStrip = useRef("scrollStrip");

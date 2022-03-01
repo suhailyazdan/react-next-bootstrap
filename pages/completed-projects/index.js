@@ -1,8 +1,23 @@
 import Image from 'next/image'
-import { aminitiesImages } from '../../public/staticData'
-import { cmpImages } from '../../public/staticData'
 
 const CompletedProjects = () => {
+
+  const aminitiesImages = [
+    {imgUrl: "images/aminities01.jpg"},
+    {imgUrl: "images/aminities02.jpg"},
+    {imgUrl: "images/aminities03.jpg"},
+    {imgUrl: "images/aminities04.jpg"},
+    {imgUrl: "images/aminities05.jpg"}
+  ]
+
+  const cmpImages = [
+    {imgUrl: "images/cmp01.jpg"},
+    {imgUrl: "images/cmp02.jpg"},
+    {imgUrl: "images/cmp03.jpg"},
+    {imgUrl: "images/cmp04.jpg"},
+    {imgUrl: "images/cmp05.jpg"}
+  ]
+
   return (
     <>
       <div className="container">

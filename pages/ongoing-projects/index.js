@@ -1,7 +1,16 @@
 import Image from 'next/image'
-import { ongImages } from '../../public/staticData';
 
 const OngoingProjects = () => {
+  
+  const ongImages = [
+    {imgUrl: "images/ong01.jpg"},
+    {imgUrl: "images/ong02.jpg"},
+    {imgUrl: "images/ong03.jpg"},
+    {imgUrl: "images/ong04.jpg"},
+    {imgUrl: "images/ong05.jpg"},
+    {imgUrl: "images/ong06.jpg"}
+  ]
+
   return (
     <>
       <div className="container">

@@ -1,8 +1,16 @@
 import Carousel from 'react-bootstrap/Carousel'
 import Image from 'next/image'
-import { bnrImages } from '../../../../public/staticData';
 
 const Banner = () => {
+
+  const bnrImages = [
+    {imgUrl:"images/banner02.jpg"},
+    {imgUrl:"images/banner06.jpg"},
+    {imgUrl:"images/banner04.jpg"},
+    {imgUrl:"images/banner03.jpg"},
+    {imgUrl:"images/banner05.jpg"}
+  ]
+
   return (
     <>
       <div>
